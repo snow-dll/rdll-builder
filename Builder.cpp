@@ -10,7 +10,7 @@ unsigned char loaderStub[] =
 int main(int argc, char* argv[])
 {
 
-	if (argc < 4)
+	if (argc < 3)
 	{
 		printf("Usage: Builder.exe <source> <target>\n");
 	}
